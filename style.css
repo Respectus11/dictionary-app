@@ -1,0 +1,54 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+ }
+ body{
+    display: grid;
+    place-items:center;
+    min-height: 100vh;
+    background-color:dodgerblue;
+ }
+ .card{
+    width:auto;
+    Background-color:black;
+    padding: 3rem 2rem;
+    border-radius :1rem;
+    box-shadow:10px 10px lightblue;
+ }
+ .property{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    margin:1rem 0;
+ }
+ .search-form{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+    width:10vW;
+    height:30vw;
+}
+.search-form input,
+.search-form button{
+    flex-basis:70%;
+    font-size:1rem;
+    padding: .6rem 1rem;
+    border:none;
+    outline:none;
+    background-color:transparent;
+    color:white;
+}
+.search-form button{
+    flex-basis:30%;
+    cursor:pointer;
+    border-left:1px solid;
+}
+.search-form button:hover{
+background-color: white;
+color:black;
+
+}
